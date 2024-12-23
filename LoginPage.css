@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: url("https://assets.nflxext.com/ffe/siteui/vlv3/729ce5c2-d831-436a-8c9d-f38fea0b99b3/web/IN-en-20241209-TRIFECTA-perspective_4aef76eb-7d5b-4be0-93c0-5f67320fd878_large.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Navigation Bar */
+nav {
+    height: 8rem;
+    width: 100%;
+
+}
+
+nav>h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-style: solid;
+    color: red;
+    margin-top: 0.8rem;
+    margin-left: 8rem;
+}
+
+/* Main */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+ 
+     height: 450px; 
+    width: 400px;
+    padding: 10px;
+    
+    background-color: rgb(0, 0, 0, 0.8);
+}
+
+.container>h1 {
+    font-size:2rem;
+    color: white;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+}
+.container>form>input{
+    height: 3rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    width: 80%;
+    padding: 15px;
+    font-size: 1rem;
+    border: 1px solid rgb(255, 0, 0,0.6);
+    background-color: rgb(0, 0, 0,0.5);
+    color: white;
+    border-radius: 3px;
+
+}
+/* sign in button */
+.container>form>.submit>input{
+    height: 3rem;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+    width: 80%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid rgb(255, 0, 0,0.6);
+    background-color: rgb(255, 0, 0,0.8);
+    color: white;
+    border-radius: 5px;
+}
+.container>form>.submit>input:active{
+    transform: scale(0.98);
+}
+/* remember me */
+
+.container>.remember{
+    height: 3rem;
+    margin-left: 2rem;
+    width: 80%;
+    padding: 10px;
+    font-size: 1rem;
+    color: white;
+    border-radius: 5px;
+    
+    
+}
+
+.container>.remember>label{
+    margin-left: 3px;
+    font-size: 1.1rem;
+}
+
+/* footer para */
+.container> .content>p{
+    margin-left: 2rem;
+    color:grey;
+}
+
+.container> .content>p>a{
+    color: blue;
+    text-decoration: none;
+}
+.container>.content>p>a:hover{
+     text-decoration: underline ;
+}
+.container>.content>p>a:hover{
+     text-decoration: underline ;
+}
+.container>.content>#info{
+    display: none;
+}
+.container>.content>#info:target{
+    display: block;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
